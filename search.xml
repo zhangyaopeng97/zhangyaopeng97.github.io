@@ -4,33 +4,6 @@
   
     
     <entry>
-      <title>文章标题1</title>
-      <link href="/2025/05/19/%E6%96%87%E7%AB%A011/"/>
-      <url>/2025/05/19/%E6%96%87%E7%AB%A011/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 分类名称2 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 标签1 </tag>
-            
-            <tag> 标签2 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>软考高级指南</title>
       <link href="/2025/05/19/%E8%BD%AF%E8%80%83%E9%AB%98%E7%BA%A7%E6%8C%87%E5%8D%97/"/>
       <url>/2025/05/19/%E8%BD%AF%E8%80%83%E9%AB%98%E7%BA%A7%E6%8C%87%E5%8D%97/</url>
@@ -89,214 +62,25 @@
     
     
     <entry>
-      <title>文章标题1</title>
-      <link href="/2021/05/29/%E6%96%87%E7%AB%A010/"/>
-      <url>/2021/05/29/%E6%96%87%E7%AB%A010/</url>
+      <title>Java 10大类算法归纳</title>
+      <link href="/2025/05/17/Java%2010%E5%A4%A7%E7%B1%BB%E7%AE%97%E6%B3%95%E5%BD%92%E7%BA%B3/"/>
+      <url>/2025/05/17/Java%2010%E5%A4%A7%E7%B1%BB%E7%AE%97%E6%B3%95%E5%BD%92%E7%BA%B3/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>一、排序算法（核心类别）</p><ol><li><p>快速排序<br>• 原理：分治法思想，选取基准值将数组分割成子序列递归排序  </p><p>• 时间复杂度：平均O(n log n)，最坏O(n²)  </p><p>• 代码示例（网页1）：  </p>  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">quickSort</span><span class="params">(<span class="type">int</span>[] arr, <span class="type">int</span> left, <span class="type">int</span> right)</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (left &lt; right) &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">pivotIndex</span> <span class="operator">=</span> partition(arr, left, right);</span><br><span class="line">        quickSort(arr, left, pivotIndex - <span class="number">1</span>);</span><br><span class="line">        quickSort(arr, pivotIndex + <span class="number">1</span>, right);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>• 应用场景：大规模无序数据集（网页1、4、8）</p></li><li><p>归并排序<br>• 特点：稳定排序，时间复杂度O(n log n)  </p><p>• 适用场景：链表排序、外部排序（网页2、5）</p></li></ol><hr><p>二、查找算法</p><ol><li><p>二分查找<br>• 前提条件：有序数组  </p><p>• 代码示例（网页3）：  </p>  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="type">int</span> <span class="title function_">binarySearch</span><span class="params">(<span class="type">int</span>[] arr, <span class="type">int</span> key)</span> &#123;</span><br><span class="line">    <span class="type">int</span> <span class="variable">left</span> <span class="operator">=</span> <span class="number">0</span>, right = arr.length - <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span> (left &lt;= right) &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">mid</span> <span class="operator">=</span> left + (right - left) / <span class="number">2</span>;</span><br><span class="line">        <span class="keyword">if</span> (arr[mid] == key) <span class="keyword">return</span> mid;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (arr[mid] &lt; key) left = mid + <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">else</span> right = mid - <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>• 优化方向：插值查找（网页3、6）</p></li></ol><hr><p>三、图论算法</p><ol><li><p>Dijkstra最短路径<br>• 原理：贪心策略，使用优先队列优化  </p><p>• 应用场景：导航系统、网络路由（网页4、7）</p></li><li><p>深度优先搜索（DFS）<br>• 代码特征：递归或栈实现  </p><p>• 典型应用：迷宫求解、拓扑排序（网页1、7）</p></li></ol><hr><p>四、动态规划（DP）</p><ol><li><p>背包问题<br>• 核心方程：<code>dp[i][j] = max(dp[i-1][j], dp[i-1][j-w]+v)</code>  </p><p>• 变种类型：0-1背包、完全背包（网页4、5）</p></li><li><p>最长公共子序列（LCS）<br>• 应用领域：DNA序列比对、文本差异分析（网页4、8）</p></li></ol><hr><p>五、字符串匹配</p><ol><li><p>KMP算法<br>• 核心思想：部分匹配表跳过无效比较  </p><p>• 时间复杂度：O(n+m)（网页4、5）</p></li><li><p>Boyer-Moore算法<br>• 优势：坏字符规则和好后缀规则结合  </p><p>• 适用场景：大文本搜索（网页5、7）</p></li></ol><hr><p>六、分治算法</p><ol><li>快速排序（见第一类）  </li><li>归并排序（见第一类）  </li><li>Strassen矩阵乘法<br>• 突破点：将矩阵乘法复杂度从O(n³)降至O(n².81)（网页4、8）</li></ol><hr><p>七、贪心算法</p><ol><li><p>Prim最小生成树<br>• 实现方式：优先队列维护候选边集合  </p><p>• 对比算法：Kruskal算法（网页5、7）</p></li><li><p>霍夫曼编码<br>• 应用场景：数据压缩、文件编码（网页4、8）</p></li></ol><hr><p>八、树相关算法</p><ol><li><p>AVL树平衡调整<br>• 旋转类型：左旋、右旋、左右旋、右左旋（网页6、8）</p></li><li><p>红黑树插入删除<br>• 特性维护：颜色翻转与节点旋转组合操作（网页6、8）</p></li></ol><hr><p>九、数学算法</p><ol><li><p>欧几里得算法<br>• 代码实现：递归求最大公约数（网页4、5）  </p>  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="type">int</span> <span class="title function_">gcd</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b)</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> b == <span class="number">0</span> ? a : gcd(b, a % b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>素数筛法<br>• 优化方案：埃拉托斯特尼筛法、欧拉筛法（网页5、7）</p></li></ol><hr><p>十、并发与优化算法</p><ol><li><p>CAS（Compare-And-Swap）<br>• 硬件支持：Java原子类底层实现原理（网页4、6）</p></li><li><p>LRU缓存淘汰<br>• 数据结构：哈希表+双向链表实现O(1)操作（网页6、8）</p></li></ol>]]></content>
       
       
       <categories>
           
-          <category> 分类名称2 </category>
+          <category> 总结 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 标签1 </tag>
+            <tag> 算法 </tag>
             
-            <tag> 标签2 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>文章标题1</title>
-      <link href="/2021/05/29/%E6%96%87%E7%AB%A06/"/>
-      <url>/2021/05/29/%E6%96%87%E7%AB%A06/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 分类名称2 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 标签1 </tag>
-            
-            <tag> 标签2 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>文章标题1</title>
-      <link href="/2021/05/29/%E6%96%87%E7%AB%A03/"/>
-      <url>/2021/05/29/%E6%96%87%E7%AB%A03/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 分类名称2 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 标签1 </tag>
-            
-            <tag> 标签2 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>文章标题1</title>
-      <link href="/2021/05/29/%E6%96%87%E7%AB%A07/"/>
-      <url>/2021/05/29/%E6%96%87%E7%AB%A07/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 分类名称2 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 标签1 </tag>
-            
-            <tag> 标签2 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>文章标题1</title>
-      <link href="/2021/05/29/%E6%96%87%E7%AB%A04/"/>
-      <url>/2021/05/29/%E6%96%87%E7%AB%A04/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 分类名称2 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 标签1 </tag>
-            
-            <tag> 标签2 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>文章标题1</title>
-      <link href="/2021/05/29/%E6%96%87%E7%AB%A05/"/>
-      <url>/2021/05/29/%E6%96%87%E7%AB%A05/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 分类名称2 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 标签1 </tag>
-            
-            <tag> 标签2 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>文章标题1</title>
-      <link href="/2021/05/29/%E6%96%87%E7%AB%A08/"/>
-      <url>/2021/05/29/%E6%96%87%E7%AB%A08/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 分类名称2 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 标签1 </tag>
-            
-            <tag> 标签2 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>文章标题1</title>
-      <link href="/2021/05/29/%E6%96%87%E7%AB%A09/"/>
-      <url>/2021/05/29/%E6%96%87%E7%AB%A09/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 分类名称2 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 标签1 </tag>
-            
-            <tag> 标签2 </tag>
+            <tag> Java </tag>
             
         </tags>
       
