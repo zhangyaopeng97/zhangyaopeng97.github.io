@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>文章标题1</title>
+      <link href="/2025/05/19/%E6%96%87%E7%AB%A011/"/>
+      <url>/2025/05/19/%E6%96%87%E7%AB%A011/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类名称2 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签2 </tag>
+            
+            <tag> 标签1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>软考高级指南</title>
+      <link href="/2025/05/19/%E8%BD%AF%E8%80%83%E9%AB%98%E7%BA%A7%E6%8C%87%E5%8D%97/"/>
+      <url>/2025/05/19/%E8%BD%AF%E8%80%83%E9%AB%98%E7%BA%A7%E6%8C%87%E5%8D%97/</url>
+      
+        <content type="html"><![CDATA[<hr><h2 id="🔥-在职高效备考系统架构设计师全攻略（含每日时间表-优先级策略）"><a href="#🔥-在职高效备考系统架构设计师全攻略（含每日时间表-优先级策略）" class="headerlink" title="🔥 在职高效备考系统架构设计师全攻略（含每日时间表+优先级策略）"></a>🔥 <strong>在职高效备考系统架构设计师全攻略</strong>（含每日时间表+优先级策略）</h2><h3 id="⏰-你的核心优势与挑战分析"><a href="#⏰-你的核心优势与挑战分析" class="headerlink" title="⏰ 你的核心优势与挑战分析"></a>⏰ <strong>你的核心优势与挑战分析</strong></h3><ul><li><strong>优势</strong>：Java开发经验（熟悉设计模式、架构基础）、双休日可集中冲刺  </li><li><strong>挑战</strong>：新生儿出生后时间碎片化、需兼顾工作与家庭  </li><li><strong>破局关键</strong>：<strong>精准抓重点 + 真题驱动 + 模板化应试技巧</strong></li></ul><hr><h3 id="📚-一、备考材料与工具包（按优先级排序）"><a href="#📚-一、备考材料与工具包（按优先级排序）" class="headerlink" title="📚 一、备考材料与工具包（按优先级排序）"></a>📚 <strong>一、备考材料与工具包（按优先级排序）</strong></h3><table><thead><tr><th>类型</th><th>推荐资源</th><th>用途说明</th></tr></thead><tbody><tr><td><strong>核心材料</strong></td><td>《系统架构设计师考试大纲（最新版）》</td><td>明确考试范围，打印贴在书桌前</td></tr><tr><td></td><td>近5年真题（2019-2023）及答案解析</td><td><strong>每天必用！</strong> 优先从<a href="https://www.ruankao.org.cn/">软考官网</a>下载</td></tr><tr><td><strong>辅助工具</strong></td><td>希赛&#x2F;环球网校视频课（选1个，约300元）</td><td>利用碎片时间听重点章节（1.5倍速）</td></tr><tr><td></td><td><a href="https://www.processon.com/">ProcessOn</a></td><td>画架构图&#x2F;UML图（论文素材积累）</td></tr><tr><td></td><td>Anki记忆卡</td><td>高频考点背诵（如CAP定理、设计模式）</td></tr><tr><td><strong>应急包</strong></td><td>《系统架构设计师5天修炼》</td><td>考前突击神器，重点提炼版</td></tr></tbody></table><hr><h3 id="📅-二、分阶段备考计划（总周期8周）"><a href="#📅-二、分阶段备考计划（总周期8周）" class="headerlink" title="📅 二、分阶段备考计划（总周期8周）"></a>📅 <strong>二、分阶段备考计划（总周期8周）</strong></h3><h4 id="阶段1：摸底定位（第1周）"><a href="#阶段1：摸底定位（第1周）" class="headerlink" title="阶段1：摸底定位（第1周）"></a><strong>阶段1：摸底定位（第1周）</strong></h4><ul><li><strong>目标</strong>：明确强弱项，制定针对性策略  </li><li><strong>每日投入</strong>：工作日1h，周末2h  </li><li><strong>具体动作</strong>：  <ol><li><strong>做1套完整真题（2023年）</strong>，严格计时，记录各模块得分  </li><li><strong>分析错题分布</strong>：  <ul><li>综合知识：计算机组成原理&#x2F;数据库&#x2F;网络等基础课短板  </li><li>案例分析：系统建模&#x2F;性能优化等题型弱点  </li><li>论文：是否缺乏实际项目素材</li></ul></li><li><strong>制定个人优先级表</strong>（示例）：  <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> 高优先级：案例分析（系统建模）、论文（微服务架构）  </span><br><span class="line"><span class="bullet">-</span> 中优先级：综合知识（新兴技术、安全设计）  </span><br><span class="line"><span class="bullet">-</span> 低优先级：操作系统原理（已掌握进程调度）  </span><br></pre></td></tr></table></figure></li></ol></li></ul><h4 id="阶段2：专项突破（第2-5周）"><a href="#阶段2：专项突破（第2-5周）" class="headerlink" title="阶段2：专项突破（第2-5周）"></a><strong>阶段2：专项突破（第2-5周）</strong></h4><ul><li><p><strong>每日时间分配表</strong>（兼顾工作与家庭）：  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">早7:00-7:30   通勤听视频课（综合知识难点）  </span><br><span class="line">午12:30-13:00 刷Anki卡片（高频考点）  </span><br><span class="line">晚20:30-21:30 集中学习（真题/论文）  </span><br><span class="line">周末上午9-11点 全真模拟考试  </span><br></pre></td></tr></table></figure></li><li><p><strong>各科目策略</strong>：<br><strong>1. 综合知识</strong>（保底50分）：  </p><ul><li><strong>重点突破</strong>：系统架构设计（20%）、数据库（10%）、安全设计（10%）  </li><li><strong>技巧</strong>：  <ul><li>直接刷真题，错题用Anki记录（示例卡：<code>CAP定理中，AP系统如何保证最终一致性？</code>）  </li><li><strong>必背清单</strong>：  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 设计模式对照表</span></span><br><span class="line">单例模式 → Spring Bean默认作用域  </span><br><span class="line">观察者模式 → Java EventListener  </span><br><span class="line">策略模式 → 支付渠道选择实现  </span><br></pre></td></tr></table></figure></li></ul></li></ul><p><strong>2. 案例分析</strong>（保底45分）：  </p><ul><li><strong>高频题型解法</strong>：  <ul><li><p><strong>系统建模题</strong>：  </p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 确定用例边界（用&lt;<span class="language-xml"><span class="tag">&lt;<span class="name">include</span>&gt;</span></span>&gt;/&lt;<span class="language-xml"><span class="tag">&lt;<span class="name">extend</span>&gt;</span></span>&gt;）  </span><br><span class="line"><span class="bullet">2.</span> 类图重点画聚合/组合关系（用菱形箭头）  </span><br><span class="line"><span class="bullet">3.</span> 状态图标注事件触发条件  </span><br></pre></td></tr></table></figure></li><li><p><strong>架构设计题</strong>：  </p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">答题模板：  </span><br><span class="line"><span class="bullet">-</span> 问题痛点（如单点故障）  </span><br><span class="line"><span class="bullet">-</span> 选型对比（微服务 vs SOA）  </span><br><span class="line"><span class="bullet">-</span> 具体方案（Nginx+SpringCloud）  </span><br><span class="line"><span class="bullet">-</span> 验证指标（吞吐量提升X%）  </span><br></pre></td></tr></table></figure></li></ul></li></ul><p><strong>3. 论文</strong>（保底48分）：  </p><ul><li><p><strong>快速成文模板</strong>：  </p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">## 标题：基于XXX技术的YYY系统架构设计  </span></span><br><span class="line"></span><br><span class="line"><span class="section">### 1. 项目背景与问题  </span></span><br><span class="line"><span class="bullet">-</span> 场景：电商促销秒杀系统（用户量100万+）  </span><br><span class="line"><span class="bullet">-</span> 痛点：数据库扛不住高并发、库存超卖  </span><br><span class="line"></span><br><span class="line"><span class="section">### 2. 架构设计  </span></span><br><span class="line"><span class="bullet">-</span> 分层设计：接入层（Nginx+OpenResty）→ 服务层（SpringCloud）→ 数据层（Redis+MySQL分库）  </span><br><span class="line"><span class="bullet">-</span> 技术选型：RabbitMQ异步削峰、Sentinel限流  </span><br><span class="line"></span><br><span class="line"><span class="section">### 3. 实施效果  </span></span><br><span class="line"><span class="bullet">-</span> QPS从500提升至5000  </span><br><span class="line"><span class="bullet">-</span> 0超卖事故  </span><br></pre></td></tr></table></figure></li><li><p><strong>素材积累</strong>：  </p><ul><li>结合你参与的Java项目，虚构一个高并发&#x2F;分布式场景（如支付系统、风控系统）  </li><li>准备3个不同方向的案例（微服务、安全、性能优化）</li></ul></li></ul></li></ul><h4 id="阶段3：冲刺模拟（第6-8周）"><a href="#阶段3：冲刺模拟（第6-8周）" class="headerlink" title="阶段3：冲刺模拟（第6-8周）"></a><strong>阶段3：冲刺模拟（第6-8周）</strong></h4><ul><li><strong>动作</strong>：  <ol><li>每周末全真模拟（09:00-16:00连续考3科）  </li><li>论文限时写作训练（2小时内完成2000字）  </li><li>重点复习错题本和Anki卡片</li></ol></li><li><strong>考前3天</strong>：  <ul><li>背诵论文开头&#x2F;结尾模板  </li><li>默写10个高频考点（如Redis缓存雪崩解决方案）</li></ul></li></ul><hr><h3 id="🎯-三、各模块重点与偷分技巧"><a href="#🎯-三、各模块重点与偷分技巧" class="headerlink" title="🎯 三、各模块重点与偷分技巧"></a>🎯 <strong>三、各模块重点与偷分技巧</strong></h3><h4 id="综合知识（选择题）"><a href="#综合知识（选择题）" class="headerlink" title="综合知识（选择题）"></a><strong>综合知识（选择题）</strong></h4><ul><li><strong>必拿分点</strong>：  <ul><li>架构风格：微服务特点（独立部署、轻量通信）  </li><li>设计模式：工厂模式 vs 抽象工厂模式  </li><li>安全设计：JWT组成（Header.Payload.Signature）</li></ul></li><li><strong>蒙题技巧</strong>：  <ul><li>出现“绝对化”词汇（必须、所有）→ 通常错误  </li><li>新兴技术选最新标准（如HTTP&#x2F;3基于QUIC协议）</li></ul></li></ul><h4 id="案例分析"><a href="#案例分析" class="headerlink" title="案例分析"></a><strong>案例分析</strong></h4><ul><li><strong>答题公式</strong>：  <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">问题定位 → 技术原理 → 解决方案 → 验证指标  </span><br><span class="line">示例：  </span><br><span class="line">Q：如何解决数据库查询慢？  </span><br><span class="line">A：  </span><br><span class="line"><span class="bullet">1.</span> 定位慢SQL（Explain分析）  </span><br><span class="line"><span class="bullet">2.</span> 添加索引（B+树原理）  </span><br><span class="line"><span class="bullet">3.</span> 结果：查询时间从2s降至200ms  </span><br></pre></td></tr></table></figure></li></ul><h4 id="论文"><a href="#论文" class="headerlink" title="论文"></a><strong>论文</strong></h4><ul><li><strong>加分细节</strong>：  <ul><li>画1-2张架构图（用ProcessOn绘制后贴图）  </li><li>引用名人名言（如Martin Fowler谈微服务）  </li><li>强调“踩坑”与反思（如最初没做熔断导致雪崩）</li></ul></li></ul><hr><h3 id="⚠️-四、避坑指南（血泪经验）"><a href="#⚠️-四、避坑指南（血泪经验）" class="headerlink" title="⚠️ 四、避坑指南（血泪经验）"></a>⚠️ <strong>四、避坑指南（血泪经验）</strong></h3><ol><li><strong>别啃教材</strong>：直接真题驱动，遇到陌生知识点再查资料  </li><li><strong>论文不要临场发挥</strong>：提前准备好3篇模板，考场上改头换面  </li><li><strong>案例分析分点作答</strong>：用“①、②、③”编号，方便阅卷老师找得分点  </li><li><strong>利用产假时间</strong>：新生儿出生后，可申请假期集中冲刺（如有哺乳假）</li></ol><hr><h3 id="📌-五、最终冲刺计划表（考前1周）"><a href="#📌-五、最终冲刺计划表（考前1周）" class="headerlink" title="📌 五、最终冲刺计划表（考前1周）"></a>📌 <strong>五、最终冲刺计划表（考前1周）</strong></h3><table><thead><tr><th>时间</th><th>任务</th></tr></thead><tbody><tr><td>周一-周三</td><td>重做2021-2023年真题，严格计时</td></tr><tr><td>周四</td><td>整理高频错题（用Excel分类统计错误率）</td></tr><tr><td>周五</td><td>默写论文模板 + 画架构图</td></tr><tr><td>周六</td><td>模拟考试（完全模拟考场环境）</td></tr><tr><td>周日</td><td>放松，检查准考证&#x2F;文具，复习Anki卡片</td></tr></tbody></table><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软考 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 系统架构设计师 </tag>
+            
+            <tag> 软考高级 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2025/03/29/hello-world/"/>
+      <url>/2025/03/29/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类名称1 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签2 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文章标题1</title>
+      <link href="/2021/05/29/%E6%96%87%E7%AB%A010/"/>
+      <url>/2021/05/29/%E6%96%87%E7%AB%A010/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类名称2 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签2 </tag>
+            
+            <tag> 标签1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文章标题1</title>
+      <link href="/2021/05/29/%E6%96%87%E7%AB%A03/"/>
+      <url>/2021/05/29/%E6%96%87%E7%AB%A03/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类名称2 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签2 </tag>
+            
+            <tag> 标签1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文章标题1</title>
+      <link href="/2021/05/29/%E6%96%87%E7%AB%A02/"/>
+      <url>/2021/05/29/%E6%96%87%E7%AB%A02/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类名称2 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签2 </tag>
+            
+            <tag> 标签1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文章标题1</title>
+      <link href="/2021/05/29/%E6%96%87%E7%AB%A05/"/>
+      <url>/2021/05/29/%E6%96%87%E7%AB%A05/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类名称2 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签2 </tag>
+            
+            <tag> 标签1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文章标题1</title>
+      <link href="/2021/05/29/%E6%96%87%E7%AB%A06/"/>
+      <url>/2021/05/29/%E6%96%87%E7%AB%A06/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类名称2 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签2 </tag>
+            
+            <tag> 标签1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文章标题1</title>
+      <link href="/2021/05/29/%E6%96%87%E7%AB%A04/"/>
+      <url>/2021/05/29/%E6%96%87%E7%AB%A04/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类名称2 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签2 </tag>
+            
+            <tag> 标签1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文章标题1</title>
+      <link href="/2021/05/29/%E6%96%87%E7%AB%A07/"/>
+      <url>/2021/05/29/%E6%96%87%E7%AB%A07/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类名称2 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签2 </tag>
+            
+            <tag> 标签1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文章标题1</title>
+      <link href="/2021/05/29/%E6%96%87%E7%AB%A08/"/>
+      <url>/2021/05/29/%E6%96%87%E7%AB%A08/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类名称2 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签2 </tag>
+            
+            <tag> 标签1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文章标题1</title>
+      <link href="/2021/05/29/%E6%96%87%E7%AB%A09/"/>
+      <url>/2021/05/29/%E6%96%87%E7%AB%A09/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类名称2 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签2 </tag>
+            
+            <tag> 标签1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
